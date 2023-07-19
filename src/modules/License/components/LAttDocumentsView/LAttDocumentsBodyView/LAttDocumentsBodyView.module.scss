@@ -1,0 +1,25 @@
+@import '~@wf/components/dist/styles/functions';
+
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.item_cell {
+  flex: 1;
+}
+
+.item_middle_cell {
+  flex: 2;
+
+  a {
+    color: var(colorName(success, -10));
+    text-decoration: none;
+  }
+}
+
+.item_big_cell {
+  flex: 3;
+}

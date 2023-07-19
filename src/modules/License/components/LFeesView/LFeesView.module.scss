@@ -1,0 +1,50 @@
+@import '~@wf/components/dist/styles/functions';
+
+.header_content {
+  padding: 0;
+  h2 {
+    font-size: 20px;
+  }
+
+}
+
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.item_cell {
+  flex: 1;
+}
+
+.item_big_cell {
+  flex: 3;
+}
+
+.spec_row {
+  display: flex;
+  justify-content: flex-end;
+
+  span {
+    color: var(colorName(typography,dark));
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.last_cell {
+  & > div {
+    padding-right: 0 !important;
+  }
+}
+
+.bill_number_content {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  .bill_number {
+    color: var(colorName(typography,dark));
+  }
+}

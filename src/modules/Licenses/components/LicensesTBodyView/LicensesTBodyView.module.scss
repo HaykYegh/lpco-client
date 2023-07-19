@@ -1,0 +1,49 @@
+@import '~@wf/components/dist/styles/functions';
+
+.last_item > div {
+  padding: 0 !important;
+  text-align: right;
+  color: var(colorName(typography,light));
+  a {
+    color: unset;
+  }
+  i {
+    cursor: pointer;
+    margin-left: 15px;
+  }
+}
+
+.first_item {
+  color: var(colorName(success, -10));
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+}
+
+.licenses_tb {
+  .license_cell {
+    flex: 1;
+  }
+
+  .license_big_cell {
+    flex: 2;
+  }
+}
+
+.popoverContent {
+  display: flex;
+  flex-direction: column;
+  i {
+    margin-left: 0 !important;
+  }
+  a {
+    display: inline-flex;
+    min-width: 100px;
+    height: 30px;
+    text-decoration: none;
+    color: var(colorName(typography));
+    align-items: center;
+  }
+}
+

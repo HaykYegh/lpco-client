@@ -1,0 +1,11 @@
+@import "~@wf/components/dist/styles/functions";
+
+.empty_field {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+  .field_text {
+    color: var(colorName(typography,dark));
+  }
+}

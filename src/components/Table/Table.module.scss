@@ -1,0 +1,82 @@
+@import "~@wf/components/dist/styles/functions";
+
+.table_content {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.filters_content {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  flex-wrap: wrap;
+
+  .filters_item {
+    width: 220px;
+    margin: 0 12px 12px 0;
+  }
+
+  .date_picker {
+    button {
+      top: -2px;
+      &:after {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.footer_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.empty_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 118px;
+  color: var(colorName(typography,light));
+
+  h3 {
+    font-weight: 600;
+    font-size: 16px;
+    color: var(colorName(typography));
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0;
+  }
+
+  i {
+    margin-bottom: 16px;
+  }
+}
+
+.specific_th {
+  & > div {
+    padding-right: 0 !important;
+  }
+
+  .specific_th_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-right: 0;
+
+    & > span:first-child {
+      margin-right: 30px;
+    }
+  }
+}
+
+.th_item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

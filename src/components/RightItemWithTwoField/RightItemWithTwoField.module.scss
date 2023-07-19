@@ -1,0 +1,17 @@
+.section_row_iwtf {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  & > div {
+    flex: 1;
+  }
+  &:after {
+    content: "";
+    display: none;
+    flex: 1;
+  }
+  &.withAfter:after {
+    display: block;
+  }
+}
+

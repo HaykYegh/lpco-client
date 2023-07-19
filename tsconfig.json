@@ -1,0 +1,15 @@
+{
+  "extends": "@wf/configs/tsconfig.base.json",
+  "include": [
+    "./src/**/*",
+    "./src/**/*.json",
+  ],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ]
+  },
+}

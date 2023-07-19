@@ -1,0 +1,11 @@
+.section_row_wtf {
+  display: flex;
+  & > div {
+    flex: 2;
+  }
+  &:after {
+    content: "";
+    display: block;
+    flex: 1;
+  }
+}

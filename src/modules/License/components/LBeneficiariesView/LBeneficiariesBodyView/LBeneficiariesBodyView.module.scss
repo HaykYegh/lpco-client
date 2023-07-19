@@ -1,0 +1,14 @@
+.last_item  > div {
+  padding-right: 0 !important;
+  justify-content: flex-end;
+  display: flex !important;
+  gap: 4px;
+}
+
+.item_cell {
+  flex: 1;
+}
+
+.item_big_cell {
+  flex: 3;
+}

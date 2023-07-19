@@ -1,0 +1,10 @@
+{
+  "realm" : "app",
+  "auth-server-url" : "https://sso-lpco.webbfontaine.am/auth",
+  "ssl-required" : "external",
+  "resource" : "lpco2",
+  "public-client" : true,
+  "verify-token-audience" : true,
+  "use-resource-role-mappings" : true,
+  "confidential-port" : 0
+}

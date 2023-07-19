@@ -1,0 +1,12 @@
+@import '../../../node_modules/@wf/components/dist/styles/functions';
+
+.section_body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  hr {
+    margin: 0;
+    border: 1px solid var(colorName(background,80));
+  }
+}

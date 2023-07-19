@@ -1,0 +1,1 @@
+require('@wf/configs/sonar');

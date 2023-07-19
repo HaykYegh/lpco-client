@@ -1,0 +1,28 @@
+@import '~@wf/components/dist/styles/functions';
+
+.icon_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+
+  &_edit, &_delete, &_cancel {
+    border: 1px solid var(colorName(background));
+    background-color: #ffffff;
+  }
+  &_update {
+    border: none;
+    background-color: var(colorName(success, 30));
+
+    i {
+      color: #ffffff !important;
+    }
+  }
+  i {
+    margin-left: 0 !important;
+  }
+}

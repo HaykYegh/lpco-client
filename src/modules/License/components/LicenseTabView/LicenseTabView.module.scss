@@ -1,0 +1,12 @@
+.multi_sections {
+  background: unset;
+  padding: 0;
+  gap: 24px;
+  display: flex !important;
+  flex-direction: column;
+  & > div {
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 4px;
+  }
+}

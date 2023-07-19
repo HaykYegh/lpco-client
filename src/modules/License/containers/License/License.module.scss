@@ -1,0 +1,43 @@
+@import '~@wf/components/dist/styles/functions';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header_options {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 24px;
+  background-color: var(colorName('background', 80));
+
+  .header_options_left {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+    h3 {
+      color: var(colorName('typography', 'light'));
+    }
+    div {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      color: var(colorName('typography'));
+    }
+  }
+
+  .header_options_right {
+    display: flex;
+    gap: 20px;
+
+    .options_link{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      color: var(colorName('success'));
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.section_row_item {
+  display: flex;
+  gap: 24px;
+  & > div:first-of-type {
+    flex: 1;
+  }
+  & > div:last-of-type {
+    flex: 2;
+  }
+}
